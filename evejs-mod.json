@@ -1,0 +1,43 @@
+{
+  "author": {
+    "id": "au-mugiwdpeuaty",
+    "keyId": "41cce0afeee7",
+    "name": "exiel"
+  },
+  "category": "玩法",
+  "changelog": "召集NPC舰队 1.0.2 首发上架（模组 id：npc-fleet）\n\n· 在舰队窗口新增「召集NPC舰队」入口：召集四大帝国 NPC 舰队并听令于玩家 —— 跟随 / 集结 / 舰队跃迁 / 集火 / 自由开火 / 待机，无指令时完全待机\n· 四大帝国 × 9 档吨位，含航空母舰 / 超级航母 / 泰坦三档旗舰（泰坦带末日武器），上限 50 艘\n· 9 套预设编成（含旗舰 / 超旗 / 最终攻势），可存「我的编成」一键召集\n· 召集消耗联盟首都星城燃料块（按吨位计价），解散或下线按存活全额返还\n· 跃迁 / 集结 / 过门只带存活舰船并满血重生，阵亡的船不会复活；跃迁落点按船体半径排布\n· 舰队只打海盗 NPC：玩家 / 蛋 / 无人机 / 建筑永不被锁定，手动打击玩家默认拒绝（/nf 打击玩家 on 可放开）\n· 纯运行期 loader 补丁：不改服务端任何文件，也不改客户端；含 7 条只读诊断命令\n· 兼容 EveJS 0.12.9",
+  "conflicts": [],
+  "delisted": false,
+  "description": "召唤npc舰队，支持除遥修以外所有舰队指令。可帮助玩家南征北战",
+  "displayName": "NPC舰队",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/exiell/evejs-mod-evejs-npc/releases/download/v1.0.2/evejs-npc-1.0.2.zip"
+    }
+  ],
+  "evejsVersions": [
+    "0.12.9"
+  ],
+  "featured": false,
+  "highlights": [
+    "玩家上线后在其本地聊天频道发送欢迎消息",
+    "只改运行内存，不修改 server/ 下任何文件",
+    "由启动器的注入总线加载，不会提前拉起大依赖",
+    "要改服务端源码时，填上 loader.js 里的 SOURCE_PATCH 即走总线"
+  ],
+  "history": [],
+  "id": "evejs-npc",
+  "publishedAt": "2026-10-12",
+  "readme": [
+    "召集NPC舰队 1.0.2 首发上架（模组 id：npc-fleet）",
+    "· 在舰队窗口新增「召集NPC舰队」入口：召集四大帝国 NPC 舰队并听令于玩家 —— 跟随 / 集结 / 舰队跃迁 / 集火 / 自由开火 / 待机，无指令时完全待机\n· 四大帝国 × 9 档吨位，含航空母舰 / 超级航母 / 泰坦三档旗舰（泰坦带末日武器），上限 50 艘\n· 9 套预设编成（含旗舰 / 超旗 / 最终攻势），可存「我的编成」一键召集\n· 召集消耗联盟首都星城燃料块（按吨位计价），解散或下线按存活全额返还\n· 跃迁 / 集结 / 过门只带存活舰船并满血重生，阵亡的船不会复活；跃迁落点按船体半径排布\n· 舰队只打海盗 NPC：玩家 / 蛋 / 无人机 / 建筑永不被锁定，手动打击玩家默认拒绝（/nf 打击玩家 on 可放开）\n· 纯运行期 loader 补丁：不改服务端任何文件，也不改客户端；含 7 条只读诊断命令\n· 兼容 EveJS 0.12.9"
+  ],
+  "repo": "https://github.com/exiell/evejs-mod-evejs-npc",
+  "requiresRestart": true,
+  "sha256": "79dcacd5276dec5d551098149facc5361fff04d1e476bc38875d4436fc4c64cc",
+  "sizeBytes": 5840,
+  "tags": [],
+  "version": "1.0.2"
+}
